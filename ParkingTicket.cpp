@@ -318,7 +318,7 @@ double PoliceOfficer::issueTicket(ParkedCar v, ParkingMeter met)
         if (remainMinutes <= 60)
         {
             
-            fine += 10;
+            fine += 10;  //Additional File
         }
         else
         {
